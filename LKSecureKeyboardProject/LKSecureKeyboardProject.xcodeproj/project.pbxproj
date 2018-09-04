@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209D197E213CE3D60062EDC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D197D213CE3D60062EDC3 /* AppDelegate.m */; };
+		209D1981213CE3D60062EDC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D1980213CE3D60062EDC3 /* ViewController.m */; };
+		209D1984213CE3D60062EDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209D1982213CE3D60062EDC3 /* Main.storyboard */; };
+		209D1986213CE3D80062EDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209D1985213CE3D80062EDC3 /* Assets.xcassets */; };
+		209D1989213CE3D80062EDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209D1987213CE3D80062EDC3 /* LaunchScreen.storyboard */; };
+		209D198C213CE3D80062EDC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D198B213CE3D80062EDC3 /* main.m */; };
+		209D1996213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D1995213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.m */; };
+		209D19A1213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19A0213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.m */; };
+		209D19E1213D6C1C0062EDC3 /* LKSecureKeyboardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19CF213D6C1C0062EDC3 /* LKSecureKeyboardViewModel.m */; };
+		209D19E2213D6C1C0062EDC3 /* LKSecureKeyboardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19D3213D6C1C0062EDC3 /* LKSecureKeyboardModel.m */; };
+		209D19E3213D6C1C0062EDC3 /* LKSecureKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19D5213D6C1C0062EDC3 /* LKSecureKeyboardButton.m */; };
+		209D19E4213D6C1C0062EDC3 /* LKSecureKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19D7213D6C1C0062EDC3 /* LKSecureKeyboardView.m */; };
+		209D19E5213D6C1C0062EDC3 /* LKSymbolKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19D8213D6C1C0062EDC3 /* LKSymbolKeyboardView.m */; };
+		209D19E6213D6C1C0062EDC3 /* LKCharacterKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19D9213D6C1C0062EDC3 /* LKCharacterKeyboardView.m */; };
+		209D19E7213D6C1C0062EDC3 /* LKSecureKeyboardRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19DB213D6C1C0062EDC3 /* LKSecureKeyboardRootView.m */; };
+		209D19E8213D6C1C0062EDC3 /* LKNumberKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19DE213D6C1C0062EDC3 /* LKNumberKeyboardView.m */; };
+		209D19EE213D6C590062EDC3 /* LKCodeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19EA213D6C590062EDC3 /* LKCodeTools.m */; };
+		209D19F2213D6D040062EDC3 /* UIColor+LKColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D19F0213D6D040062EDC3 /* UIColor+LKColorTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209D1992213CE3D90062EDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209D1971213CE3D50062EDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209D1978213CE3D50062EDC3;
+			remoteInfo = LKSecureKeyboardProject;
+		};
+		209D199D213CE3D90062EDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209D1971213CE3D50062EDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209D1978213CE3D50062EDC3;
+			remoteInfo = LKSecureKeyboardProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209D1979213CE3D60062EDC3 /* LKSecureKeyboardProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKSecureKeyboardProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209D197C213CE3D60062EDC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		209D197D213CE3D60062EDC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		209D197F213CE3D60062EDC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		209D1980213CE3D60062EDC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		209D1983213CE3D60062EDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209D1985213CE3D80062EDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209D1988213CE3D80062EDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		209D198A213CE3D80062EDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209D198B213CE3D80062EDC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209D1991213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKSecureKeyboardProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209D1995213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSecureKeyboardProjectTests.m; sourceTree = "<group>"; };
+		209D1997213CE3D90062EDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209D199C213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKSecureKeyboardProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209D19A0213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSecureKeyboardProjectUITests.m; sourceTree = "<group>"; };
+		209D19A2213CE3D90062EDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209D19CF213D6C1C0062EDC3 /* LKSecureKeyboardViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSecureKeyboardViewModel.m; sourceTree = "<group>"; };
+		209D19D0213D6C1C0062EDC3 /* LKSecureKeyboardViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSecureKeyboardViewModel.h; sourceTree = "<group>"; };
+		209D19D2213D6C1C0062EDC3 /* LKSecureKeyboardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSecureKeyboardModel.h; sourceTree = "<group>"; };
+		209D19D3213D6C1C0062EDC3 /* LKSecureKeyboardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSecureKeyboardModel.m; sourceTree = "<group>"; };
+		209D19D5213D6C1C0062EDC3 /* LKSecureKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSecureKeyboardButton.m; sourceTree = "<group>"; };
+		209D19D6213D6C1C0062EDC3 /* LKSecureKeyboardRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSecureKeyboardRootView.h; sourceTree = "<group>"; };
+		209D19D7213D6C1C0062EDC3 /* LKSecureKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSecureKeyboardView.m; sourceTree = "<group>"; };
+		209D19D8213D6C1C0062EDC3 /* LKSymbolKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSymbolKeyboardView.m; sourceTree = "<group>"; };
+		209D19D9213D6C1C0062EDC3 /* LKCharacterKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKCharacterKeyboardView.m; sourceTree = "<group>"; };
+		209D19DA213D6C1C0062EDC3 /* LKNumberKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKNumberKeyboardView.h; sourceTree = "<group>"; };
+		209D19DB213D6C1C0062EDC3 /* LKSecureKeyboardRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSecureKeyboardRootView.m; sourceTree = "<group>"; };
+		209D19DC213D6C1C0062EDC3 /* LKSecureKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSecureKeyboardButton.h; sourceTree = "<group>"; };
+		209D19DD213D6C1C0062EDC3 /* LKSecureKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSecureKeyboardView.h; sourceTree = "<group>"; };
+		209D19DE213D6C1C0062EDC3 /* LKNumberKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKNumberKeyboardView.m; sourceTree = "<group>"; };
+		209D19DF213D6C1C0062EDC3 /* LKCharacterKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKCharacterKeyboardView.h; sourceTree = "<group>"; };
+		209D19E0213D6C1C0062EDC3 /* LKSymbolKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSymbolKeyboardView.h; sourceTree = "<group>"; };
+		209D19EA213D6C590062EDC3 /* LKCodeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKCodeTools.m; sourceTree = "<group>"; };
+		209D19ED213D6C590062EDC3 /* LKCodeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKCodeTools.h; sourceTree = "<group>"; };
+		209D19F0213D6D040062EDC3 /* UIColor+LKColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LKColorTools.m"; sourceTree = "<group>"; };
+		209D19F1213D6D040062EDC3 /* UIColor+LKColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LKColorTools.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209D1976213CE3D50062EDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209D198E213CE3D90062EDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209D1999213CE3D90062EDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209D1970213CE3D50062EDC3 = {
+			isa = PBXGroup;
+			children = (
+				209D197B213CE3D60062EDC3 /* LKSecureKeyboardProject */,
+				209D1994213CE3D90062EDC3 /* LKSecureKeyboardProjectTests */,
+				209D199F213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests */,
+				209D197A213CE3D60062EDC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209D197A213CE3D60062EDC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209D1979213CE3D60062EDC3 /* LKSecureKeyboardProject.app */,
+				209D1991213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.xctest */,
+				209D199C213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209D197B213CE3D60062EDC3 /* LKSecureKeyboardProject */ = {
+			isa = PBXGroup;
+			children = (
+				209D19E9213D6C590062EDC3 /* CodeTools */,
+				209D19CD213D6C1C0062EDC3 /* SecureKeyboard */,
+				209D197C213CE3D60062EDC3 /* AppDelegate.h */,
+				209D197D213CE3D60062EDC3 /* AppDelegate.m */,
+				209D197F213CE3D60062EDC3 /* ViewController.h */,
+				209D1980213CE3D60062EDC3 /* ViewController.m */,
+				209D1982213CE3D60062EDC3 /* Main.storyboard */,
+				209D1985213CE3D80062EDC3 /* Assets.xcassets */,
+				209D1987213CE3D80062EDC3 /* LaunchScreen.storyboard */,
+				209D198A213CE3D80062EDC3 /* Info.plist */,
+				209D198B213CE3D80062EDC3 /* main.m */,
+			);
+			path = LKSecureKeyboardProject;
+			sourceTree = "<group>";
+		};
+		209D1994213CE3D90062EDC3 /* LKSecureKeyboardProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				209D1995213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.m */,
+				209D1997213CE3D90062EDC3 /* Info.plist */,
+			);
+			path = LKSecureKeyboardProjectTests;
+			sourceTree = "<group>";
+		};
+		209D199F213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				209D19A0213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.m */,
+				209D19A2213CE3D90062EDC3 /* Info.plist */,
+			);
+			path = LKSecureKeyboardProjectUITests;
+			sourceTree = "<group>";
+		};
+		209D19CD213D6C1C0062EDC3 /* SecureKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				209D19CE213D6C1C0062EDC3 /* ViewModel */,
+				209D19D1213D6C1C0062EDC3 /* Model */,
+				209D19D4213D6C1C0062EDC3 /* View */,
+			);
+			path = SecureKeyboard;
+			sourceTree = "<group>";
+		};
+		209D19CE213D6C1C0062EDC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				209D19D0213D6C1C0062EDC3 /* LKSecureKeyboardViewModel.h */,
+				209D19CF213D6C1C0062EDC3 /* LKSecureKeyboardViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		209D19D1213D6C1C0062EDC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				209D19D2213D6C1C0062EDC3 /* LKSecureKeyboardModel.h */,
+				209D19D3213D6C1C0062EDC3 /* LKSecureKeyboardModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		209D19D4213D6C1C0062EDC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				209D19DD213D6C1C0062EDC3 /* LKSecureKeyboardView.h */,
+				209D19D7213D6C1C0062EDC3 /* LKSecureKeyboardView.m */,
+				209D19DF213D6C1C0062EDC3 /* LKCharacterKeyboardView.h */,
+				209D19D9213D6C1C0062EDC3 /* LKCharacterKeyboardView.m */,
+				209D19DA213D6C1C0062EDC3 /* LKNumberKeyboardView.h */,
+				209D19DE213D6C1C0062EDC3 /* LKNumberKeyboardView.m */,
+				209D19E0213D6C1C0062EDC3 /* LKSymbolKeyboardView.h */,
+				209D19D8213D6C1C0062EDC3 /* LKSymbolKeyboardView.m */,
+				209D19DC213D6C1C0062EDC3 /* LKSecureKeyboardButton.h */,
+				209D19D5213D6C1C0062EDC3 /* LKSecureKeyboardButton.m */,
+				209D19D6213D6C1C0062EDC3 /* LKSecureKeyboardRootView.h */,
+				209D19DB213D6C1C0062EDC3 /* LKSecureKeyboardRootView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		209D19E9213D6C590062EDC3 /* CodeTools */ = {
+			isa = PBXGroup;
+			children = (
+				209D19F1213D6D040062EDC3 /* UIColor+LKColorTools.h */,
+				209D19F0213D6D040062EDC3 /* UIColor+LKColorTools.m */,
+				209D19ED213D6C590062EDC3 /* LKCodeTools.h */,
+				209D19EA213D6C590062EDC3 /* LKCodeTools.m */,
+			);
+			path = CodeTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209D1978213CE3D50062EDC3 /* LKSecureKeyboardProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209D19A5213CE3D90062EDC3 /* Build configuration list for PBXNativeTarget "LKSecureKeyboardProject" */;
+			buildPhases = (
+				209D1975213CE3D50062EDC3 /* Sources */,
+				209D1976213CE3D50062EDC3 /* Frameworks */,
+				209D1977213CE3D50062EDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKSecureKeyboardProject;
+			productName = LKSecureKeyboardProject;
+			productReference = 209D1979213CE3D60062EDC3 /* LKSecureKeyboardProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209D1990213CE3D90062EDC3 /* LKSecureKeyboardProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209D19A8213CE3D90062EDC3 /* Build configuration list for PBXNativeTarget "LKSecureKeyboardProjectTests" */;
+			buildPhases = (
+				209D198D213CE3D90062EDC3 /* Sources */,
+				209D198E213CE3D90062EDC3 /* Frameworks */,
+				209D198F213CE3D90062EDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209D1993213CE3D90062EDC3 /* PBXTargetDependency */,
+			);
+			name = LKSecureKeyboardProjectTests;
+			productName = LKSecureKeyboardProjectTests;
+			productReference = 209D1991213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		209D199B213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209D19AB213CE3D90062EDC3 /* Build configuration list for PBXNativeTarget "LKSecureKeyboardProjectUITests" */;
+			buildPhases = (
+				209D1998213CE3D90062EDC3 /* Sources */,
+				209D1999213CE3D90062EDC3 /* Frameworks */,
+				209D199A213CE3D90062EDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209D199E213CE3D90062EDC3 /* PBXTargetDependency */,
+			);
+			name = LKSecureKeyboardProjectUITests;
+			productName = LKSecureKeyboardProjectUITests;
+			productReference = 209D199C213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209D1971213CE3D50062EDC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "No Company";
+				TargetAttributes = {
+					209D1978213CE3D50062EDC3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					209D1990213CE3D90062EDC3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 209D1978213CE3D50062EDC3;
+					};
+					209D199B213CE3D90062EDC3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 209D1978213CE3D50062EDC3;
+					};
+				};
+			};
+			buildConfigurationList = 209D1974213CE3D50062EDC3 /* Build configuration list for PBXProject "LKSecureKeyboardProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209D1970213CE3D50062EDC3;
+			productRefGroup = 209D197A213CE3D60062EDC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209D1978213CE3D50062EDC3 /* LKSecureKeyboardProject */,
+				209D1990213CE3D90062EDC3 /* LKSecureKeyboardProjectTests */,
+				209D199B213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209D1977213CE3D50062EDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D1989213CE3D80062EDC3 /* LaunchScreen.storyboard in Resources */,
+				209D1986213CE3D80062EDC3 /* Assets.xcassets in Resources */,
+				209D1984213CE3D60062EDC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209D198F213CE3D90062EDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209D199A213CE3D90062EDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209D1975213CE3D50062EDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D19E3213D6C1C0062EDC3 /* LKSecureKeyboardButton.m in Sources */,
+				209D19E4213D6C1C0062EDC3 /* LKSecureKeyboardView.m in Sources */,
+				209D19E6213D6C1C0062EDC3 /* LKCharacterKeyboardView.m in Sources */,
+				209D19EE213D6C590062EDC3 /* LKCodeTools.m in Sources */,
+				209D19E7213D6C1C0062EDC3 /* LKSecureKeyboardRootView.m in Sources */,
+				209D19F2213D6D040062EDC3 /* UIColor+LKColorTools.m in Sources */,
+				209D19E5213D6C1C0062EDC3 /* LKSymbolKeyboardView.m in Sources */,
+				209D19E8213D6C1C0062EDC3 /* LKNumberKeyboardView.m in Sources */,
+				209D1981213CE3D60062EDC3 /* ViewController.m in Sources */,
+				209D19E1213D6C1C0062EDC3 /* LKSecureKeyboardViewModel.m in Sources */,
+				209D19E2213D6C1C0062EDC3 /* LKSecureKeyboardModel.m in Sources */,
+				209D198C213CE3D80062EDC3 /* main.m in Sources */,
+				209D197E213CE3D60062EDC3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209D198D213CE3D90062EDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D1996213CE3D90062EDC3 /* LKSecureKeyboardProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209D1998213CE3D90062EDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D19A1213CE3D90062EDC3 /* LKSecureKeyboardProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209D1993213CE3D90062EDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209D1978213CE3D50062EDC3 /* LKSecureKeyboardProject */;
+			targetProxy = 209D1992213CE3D90062EDC3 /* PBXContainerItemProxy */;
+		};
+		209D199E213CE3D90062EDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209D1978213CE3D50062EDC3 /* LKSecureKeyboardProject */;
+			targetProxy = 209D199D213CE3D90062EDC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209D1982213CE3D60062EDC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209D1983213CE3D60062EDC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209D1987213CE3D80062EDC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209D1988213CE3D80062EDC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209D19A3213CE3D90062EDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		209D19A4213CE3D90062EDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209D19A6213CE3D90062EDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF9UW5M7U8;
+				INFOPLIST_FILE = LKSecureKeyboardProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.like.noCompany.LKSecureKeyboardProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209D19A7213CE3D90062EDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF9UW5M7U8;
+				INFOPLIST_FILE = LKSecureKeyboardProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.like.noCompany.LKSecureKeyboardProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		209D19A9213CE3D90062EDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF9UW5M7U8;
+				INFOPLIST_FILE = LKSecureKeyboardProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.like.noCompany.LKSecureKeyboardProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKSecureKeyboardProject.app/LKSecureKeyboardProject";
+			};
+			name = Debug;
+		};
+		209D19AA213CE3D90062EDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF9UW5M7U8;
+				INFOPLIST_FILE = LKSecureKeyboardProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.like.noCompany.LKSecureKeyboardProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKSecureKeyboardProject.app/LKSecureKeyboardProject";
+			};
+			name = Release;
+		};
+		209D19AC213CE3D90062EDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF9UW5M7U8;
+				INFOPLIST_FILE = LKSecureKeyboardProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.like.noCompany.LKSecureKeyboardProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKSecureKeyboardProject;
+			};
+			name = Debug;
+		};
+		209D19AD213CE3D90062EDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF9UW5M7U8;
+				INFOPLIST_FILE = LKSecureKeyboardProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.like.noCompany.LKSecureKeyboardProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKSecureKeyboardProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209D1974213CE3D50062EDC3 /* Build configuration list for PBXProject "LKSecureKeyboardProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D19A3213CE3D90062EDC3 /* Debug */,
+				209D19A4213CE3D90062EDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209D19A5213CE3D90062EDC3 /* Build configuration list for PBXNativeTarget "LKSecureKeyboardProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D19A6213CE3D90062EDC3 /* Debug */,
+				209D19A7213CE3D90062EDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209D19A8213CE3D90062EDC3 /* Build configuration list for PBXNativeTarget "LKSecureKeyboardProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D19A9213CE3D90062EDC3 /* Debug */,
+				209D19AA213CE3D90062EDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209D19AB213CE3D90062EDC3 /* Build configuration list for PBXNativeTarget "LKSecureKeyboardProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D19AC213CE3D90062EDC3 /* Debug */,
+				209D19AD213CE3D90062EDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209D1971213CE3D50062EDC3 /* Project object */;
+}
